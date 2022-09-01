@@ -1,0 +1,456 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    background-color: #000000;
+}
+
+
+
+
+.wrapper{
+    width: 1000px;
+    margin: auto;
+}
+
+
+header{
+    padding: 10px;
+    background-image: url('../images/headerbg.jpg');
+    height: 159px;
+}
+
+
+
+.right_bg{
+    background-image: url('../images/topcontactbg.png');
+    height: 123px;
+    width: 287px;
+    padding: 10px;
+
+
+}
+
+.d-flex{
+    display: flex;
+}
+
+
+
+.web_padding{
+    padding-top: 10px;
+}
+.web_paddingRt{
+    padding-left: 14px;
+    color: white;
+    font: 20px;
+}
+
+.justify-cont{
+ justify-content: space-between;
+ 
+}
+
+
+
+/* second section */
+
+.bg-img{
+
+ background-image: url('../images/menubg.jpg');
+ background-repeat: repeat;
+ height:43px ;
+ width: 25px;
+ width: 100%;
+ list-style: none;
+ text-decoration: none;
+}
+ 
+
+/* .bg-img li{
+
+    list-style: none;
+text-decoration: ;
+
+} */
+
+
+.bg-img UL {
+    
+    margin: 0PX;
+    padding: 0px;
+    
+}
+
+
+.align-items{
+    align-items: center;
+    text-align: center;
+
+}
+
+/* Section three */
+
+
+.bg-color{
+    background-color: #2b77a0;
+    width: 1000px;
+    height: 290px ;
+    border-top: 1px solid white;
+
+}
+
+.seperator{
+background-image: url(../images/separator.jpg);
+    width: 16px;
+    height: 290px;
+
+    
+}
+
+
+.white-bg{
+
+    background: white;
+    width: 230px;
+margin: 14px 0px;
+
+margin-left: 20px;
+align-items: center;
+
+}
+
+
+.white-bg li{
+    list-style: none;
+}
+
+
+.sliderImg{
+    width : 741px ;
+    height :281px ;
+    margin: 14px  0px ;
+}
+
+
+.margin-padding{
+ 
+    margin: 0 px;
+    padding: 10px;
+    
+}
+.font-desc{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 5px;
+}
+
+
+.company-icon{
+    height: 30px;
+    width: 35px;
+}
+
+
+.alignment {
+justify-content: center;
+}
+
+
+
+.white-main{
+    background-color: white;
+
+}
+
+
+.white-main li{
+text-decoration-style: none;
+    list-style: none;
+    padding: 7px;
+}
+
+
+
+
+.white-left{
+
+
+
+    width: 325px;
+}
+
+
+.white-right{
+margin-top: 16px;
+    width: 675px;
+}
+
+
+.white-right li{
+    list-style: none;
+    margin: 10px;
+}
+
+
+.dflex{
+    display: flex;
+}
+
+
+
+.footer-img{
+    background-image: url(../images/footerbg.jpg);
+    width: 1000px;
+    height: 262px;
+}
+
+
+.bg-followUs{
+    background-image: url(../images/my.png);
+width: 160px;
+height: 46px;
+padding: 5px 10px;
+
+}
+
+
+
+
+
+
+.alignthe-text{
+    text-align: center;
+}
+
+
+
+.margin-and-padding{
+    padding: 20px;
+}
+
+
+
+.unordered-list{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .font-class
+{
+    font-size: 12px;
+} */
+
+.unordered-list li{
+    list-style: none;
+
+    font-size: 16px;
+}
+
+
+.width-flex{
+    width: 333.33px;
+    color: white;
+}
+
+.follow-us-HW{
+    width: 80px;
+    height: 27px;
+    margin-top: 12px;
+}
+
+.my-HW{
+    height: 46px;
+    width: 160px;
+}
+
+.list-padding{
+    padding-right:5px;
+    padding-top: 10px;
+}
+
+
+.company-span{
+    color: rgb(40,111,149);
+    font-weight: bold;
+}
+
+
+.footer-last{
+
+   background-color:rgb(50, 135, 175);
+    height: 43px;
+    width: 1000px;
+    color: white;
+   
+    
+}
+
+
+
+
+.text-deco{
+
+    text-decoration: none;
+    padding: 2px;
+}
+.text-deco-pading{
+
+    padding: 2px;
+}
+
+
+.img_fb{
+height: 26px;
+width: 26px ;
+}
+
+
+
+.img_twit{
+height:24px;
+width: 24px;
+
+}
+.img_ins{
+height:23px ;
+width:24px ;
+
+}
+
+.padding-social{
+padding:5px
+}
+
+
+.para-font 
+{
+
+    font-size: 15px;
+}
+
+
+.font-in-li{
+    font-size: 15px;
+}
+
+
+/* .menu */
+
+.menu-list li {
+
+    list-style: none;
+text-decoration-line: none;
+}
+
+.link-color{
+    color: black;
+}
+
+
+.justify-contentEnd{
+    justify-content: end;
+}
+.alignItemsCenter{
+    align-items: center;
+}
+
+.Flex-grow{
+    flex-grow: 1;
+}
+
+
+
+.tab-btn a{
+    padding: 12px 15px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    border-right: 1px solid rgb(41, 102 , 171);
+}
+
+.tab-btn:hover a, .tab-btn.active a{
+
+    background: url('../images/menubg_hover.jpg' ) repeat-x;
+}
+
+
+
+
+.left-side-bar{
+
+    width: 280px;
+    background-color: #2b77a0;
+}
+
+
+.white-background{
+    background-color: white;
+    width: 720px;
+    padding: 30px;
+}
+
+.br-padding{
+    padding: 7px;
+}
+
+
+
+.padding{
+    padding: 20px;
+ align-items:center ;
+
+}
+
+
+.width-of-white-bg{
+
+    width: 250px;
+}
+
+.bg-main-content{
+
+    width: 1000px;
+    background-color: white;
+    padding: 5px 5px 5px 0px;
+}
+
+
+.list-courses{
+    margin: 10px;
+    padding: 10px;
+
+   
+}
+
+.list-courses li{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.padding-list{
+    padding: 8px;
+}
+
+.gallery-img{
+
+    padding: 10px;
+}
+
+.gallery-img img{
+
+    width: 200px;
+    height: 150px;
+}
+
+.column_wid
+{
+    width:120px;
+}
